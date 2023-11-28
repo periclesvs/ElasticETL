@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YourMixedFarm.Models", "Models\YourMixedFarm.Models.csproj", "{9DA0EE67-C97A-4F52-9D58-9A2AE42D5840}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{166533AB-A6C5-4DAA-9E36-967761630148}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlServer", "SqlServer\SqlServer.csproj", "{53AA9309-5634-492D-9CF0-A3F8D703E89D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oracle", "Oracle\Oracle.csproj", "{FDF034E8-EF91-42A5-9952-6C98D92113E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Process", "Process\Process.csproj", "{61F0F481-3034-4745-94AB-13922581620D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourMixedFarm.Services", "YourMixedFarm.Services\YourMixedFarm.Services.csproj", "{26554585-F59F-491E-839E-D5710F99FC62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DA0EE67-C97A-4F52-9D58-9A2AE42D5840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA0EE67-C97A-4F52-9D58-9A2AE42D5840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA0EE67-C97A-4F52-9D58-9A2AE42D5840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA0EE67-C97A-4F52-9D58-9A2AE42D5840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166533AB-A6C5-4DAA-9E36-967761630148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166533AB-A6C5-4DAA-9E36-967761630148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166533AB-A6C5-4DAA-9E36-967761630148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166533AB-A6C5-4DAA-9E36-967761630148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53AA9309-5634-492D-9CF0-A3F8D703E89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AA9309-5634-492D-9CF0-A3F8D703E89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53AA9309-5634-492D-9CF0-A3F8D703E89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53AA9309-5634-492D-9CF0-A3F8D703E89D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF034E8-EF91-42A5-9952-6C98D92113E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF034E8-EF91-42A5-9952-6C98D92113E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF034E8-EF91-42A5-9952-6C98D92113E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF034E8-EF91-42A5-9952-6C98D92113E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F0F481-3034-4745-94AB-13922581620D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F0F481-3034-4745-94AB-13922581620D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F0F481-3034-4745-94AB-13922581620D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F0F481-3034-4745-94AB-13922581620D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26554585-F59F-491E-839E-D5710F99FC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26554585-F59F-491E-839E-D5710F99FC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26554585-F59F-491E-839E-D5710F99FC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26554585-F59F-491E-839E-D5710F99FC62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F59CEB09-BB0D-4B31-86E4-2D9F6BED7C09}
+	EndGlobalSection
+EndGlobal
